@@ -1,6 +1,6 @@
 mkdir work
 cd work
-mkdir Лабораторная работа №1!
+mkdir 'Лабораторная работа №1!'
 mkdir ФИО
 chmod u=rwx,g=rwx,o=w 'Лабораторная работа №1!'
 chmod u=w,go= 'ФИО'
