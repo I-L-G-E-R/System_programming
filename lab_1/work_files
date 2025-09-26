@@ -15,13 +15,12 @@ gzip 'Text @1'
 gzip 'Text #3'
 tar -czf 'MyAchiv.tar.gz' 'Text @1.gz' 'Text #3.gz'
 gunzip 'Text #3.gz'
-head -n 1 'ФИО/Text @1' > temp_line.txt
-cat temp_line.txt >> 'Text #3'
+head -n 1 'ФИО/Text @1' >> 'Text #3'
 echo 'Будь осторожен! Преступник вооружен!' >> 'Text #3'
 rm temp_line.txt
 tac 'ФИО/Text @1' > 'ФИО/Result_one'
 mv 'ФИО/Result_one' 'ФИО/Result_two'
-ls -la 'ФИО/' | grep '.*Т' > 'Лабораторная работа №1!/Result_3'
+cat 'ФИО/'/Т* > 'Лабораторная работа №1!/Result_3'
 uname -a >> 'Лабораторная работа №1!/Result_3'
 date >> 'Лабораторная работа №1!/Result_3'
 cd ..
