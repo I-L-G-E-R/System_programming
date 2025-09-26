@@ -17,7 +17,6 @@ tar -czf 'MyAchiv.tar.gz' 'Text @1.gz' 'Text #3.gz'
 gunzip 'Text #3.gz'
 head -n 1 'ФИО/Text @1' >> 'Text #3'
 echo 'Будь осторожен! Преступник вооружен!' >> 'Text #3'
-rm temp_line.txt
 tac 'ФИО/Text @1' > 'ФИО/Result_one'
 mv 'ФИО/Result_one' 'ФИО/Result_two'
 cat 'ФИО/'/Т* > 'Лабораторная работа №1!/Result_3'
