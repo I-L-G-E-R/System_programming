@@ -2,6 +2,6 @@
 
 int main()
 {
-    printf ("Hello, world\n");
+    printf ("Germanenko\nIlya\nMikhailovich\n");
     return 0;
 }
